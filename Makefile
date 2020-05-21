@@ -1,7 +1,7 @@
 # sqlite3 makefile
 
 CC = cc
-CFLAGS = -g -O2 -Wall -fPIC -pthread
+CFLAGS = -g -O2 -Wall -fPIC
 OPTS = -DHAVE_LOCALTIME_R \
        -DSQLITE_DEFAULT_AUTOVACUUM=1 \
        -DSQLITE_DEFAULT_FOREIGN_KEYS=1 \
